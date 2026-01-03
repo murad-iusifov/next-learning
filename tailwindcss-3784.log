@@ -1,0 +1,1367 @@
+2026-01-02T13:17:18.001310Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-01-02T13:17:18.003007Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning", pattern: "**/*", negated: false }
+2026-01-02T13:17:18.005868Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-01-02T13:17:18.005930Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning" }
+2026-01-02T13:17:18.024435Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.032512Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:17:18.033517Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:17:18.033970Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about\\page.tsx"
+2026-01-02T13:17:18.034202Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\actions.ts"
+2026-01-02T13:17:18.034473Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:17:18.034839Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog\\page.tsx"
+2026-01-02T13:17:18.035151Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:17:18.035503Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo\\page.tsx"
+2026-01-02T13:17:18.035865Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:17:18.036213Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:17:18.036366Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:17:18.036572Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\globals.css"
+2026-01-02T13:17:18.036721Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\layout.tsx"
+2026-01-02T13:17:18.036882Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\page.tsx"
+2026-01-02T13:17:18.037367Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:17:18.037861Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components\\BackButton.tsx"
+2026-01-02T13:17:18.038022Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components\\ShowPath.tsx"
+2026-01-02T13:17:18.038307Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\eslint.config.mjs"
+2026-01-02T13:17:18.038640Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:17:18.038954Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs\\ptisma.ts"
+2026-01-02T13:17:18.039172Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\next.config.ts"
+2026-01-02T13:17:18.039721Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\package.json"
+2026-01-02T13:17:18.039857Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\postcss.config.mjs"
+2026-01-02T13:17:18.040142Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:17:18.040479Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma\\prisma.ts"
+2026-01-02T13:17:18.040640Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma\\schema.prisma"
+2026-01-02T13:17:18.040856Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma.config.ts"
+2026-01-02T13:17:18.041107Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:17:18.041431Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\file.svg"
+2026-01-02T13:17:18.041577Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\globe.svg"
+2026-01-02T13:17:18.041720Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\next.svg"
+2026-01-02T13:17:18.041855Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\vercel.svg"
+2026-01-02T13:17:18.041999Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\window.svg"
+2026-01-02T13:17:18.042217Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\README.md"
+2026-01-02T13:17:18.042421Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\tsconfig.json"
+2026-01-02T13:17:18.042657Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.042684Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.042703Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.042718Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 25 file(s)
+2026-01-02T13:17:18.054085Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about\\page.tsx"
+2026-01-02T13:17:18.054308Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\actions.ts"
+2026-01-02T13:17:18.054481Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog\\page.tsx"
+2026-01-02T13:17:18.054648Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo\\page.tsx"
+2026-01-02T13:17:18.054811Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:17:18.054947Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:17:18.055105Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\layout.tsx"
+2026-01-02T13:17:18.055239Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\next.config.ts"
+2026-01-02T13:17:18.055272Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\page.tsx"
+2026-01-02T13:17:18.055409Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\package.json"
+2026-01-02T13:17:18.055429Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components\\BackButton.tsx"
+2026-01-02T13:17:18.055557Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\postcss.config.mjs"
+2026-01-02T13:17:18.055563Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components\\ShowPath.tsx"
+2026-01-02T13:17:18.055680Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma\\prisma.ts"
+2026-01-02T13:17:18.055776Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\eslint.config.mjs"
+2026-01-02T13:17:18.055817Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma\\schema.prisma"
+2026-01-02T13:17:18.055912Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs\\ptisma.ts"
+2026-01-02T13:17:18.055938Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma.config.ts"
+2026-01-02T13:17:18.056054Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\file.svg"
+2026-01-02T13:17:18.056074Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\vercel.svg"
+2026-01-02T13:17:18.056192Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\window.svg"
+2026-01-02T13:17:18.056197Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\globe.svg"
+2026-01-02T13:17:18.056306Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\README.md"
+2026-01-02T13:17:18.056332Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public\\next.svg"
+2026-01-02T13:17:18.056428Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\tsconfig.json"
+2026-01-02T13:17:18.059635Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.059688Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.059703Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.061394Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.061451Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.061468Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.061479Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:17:18.061713Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\globals.css"
+2026-01-02T13:17:18.061739Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.061761Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.061772Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.062210Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.062256Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.064044Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.064850Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.064886Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.074122Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:17:18.074583Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:17:18.085796Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:17:18.087299Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:17:18.087983Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:17:18.089150Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:17:18.090069Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:17:18.103135Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:17:18.104069Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:17:18.105169Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.106192Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.106783Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.106819Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:17:18.111004Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:17:18.111449Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:17:18.112077Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:17:18.117920Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:17:18.118755Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:17:18.119750Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:17:18.120470Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:17:18.121703Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:17:18.122755Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:17:18.124132Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:17:18.165807Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.510982Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.515619Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:07.516208Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:07.516960Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:07.517659Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:07.518298Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:07.518671Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:07.519438Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:07.520229Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:07.521513Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:07.522365Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:07.523450Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.523475Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.523486Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.523493Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:18:07.523626Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:07.523653Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.523672Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.523683Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.523877Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.523908Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.524039Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.524359Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.524387Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.528017Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:07.528458Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:07.529155Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:07.529739Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:07.530365Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:07.531347Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:07.531973Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:07.533185Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:07.533788Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:07.534819Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.534963Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:07.535301Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:07.535325Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.593853Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.597941Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:18.598461Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:18.599016Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:18.599351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:18.599688Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:18.599882Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:18.600292Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:18.600712Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:18.601412Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:18.601832Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:18.602430Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.602452Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.602462Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.602468Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:18:18.602586Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:18.602601Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.602623Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.602630Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.602805Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.602838Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.602905Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.603166Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.603178Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.605863Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:18.606261Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:18.606800Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:18.607449Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:18.608051Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:18.609089Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:18.609866Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:18.610732Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:18.611169Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:18.611787Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.611951Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:18.612225Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:18.612241Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.850581Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.854505Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:58.854785Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:58.855249Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:58.855594Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:58.855962Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:58.856163Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:58.856561Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:58.857165Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:58.857960Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:58.858377Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:58.859055Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.859071Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.859079Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.859085Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:18:58.859199Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:18:58.859227Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.859237Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.859247Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.859613Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.859646Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.859698Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.859979Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.859992Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.862735Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:18:58.863161Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:18:58.863777Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:18:58.864124Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:18:58.864466Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:18:58.865008Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:18:58.865437Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:18:58.866163Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:18:58.866582Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:18:58.867196Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.867354Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:18:58.867952Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:18:58.867970Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.076227Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.080381Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:19:36.080791Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:19:36.081206Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:19:36.081532Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:19:36.081875Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:19:36.082069Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:19:36.082472Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:19:36.082891Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:19:36.083815Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:19:36.084593Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:19:36.085478Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.085497Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.085505Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.085511Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:19:36.085629Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:19:36.085657Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.085667Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.085678Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.085981Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.086013Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.086063Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.086345Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.086358Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.088987Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:19:36.089299Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:19:36.089685Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:19:36.090010Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:19:36.090406Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:19:36.090954Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:19:36.091382Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:19:36.092079Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:19:36.092503Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:19:36.093102Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.093341Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:36.093555Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:36.093570Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.812077Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.816750Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:19:50.817287Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:19:50.817957Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:19:50.818563Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:19:50.819254Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:19:50.819825Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:19:50.820639Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:19:50.821757Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:19:50.823606Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:19:50.824666Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:19:50.825871Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.825909Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.825922Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.825932Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:19:50.826098Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:19:50.826127Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.826141Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.826151Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.826344Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.826370Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.826426Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.826759Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.826782Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.830875Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:19:50.831186Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:19:50.831824Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:19:50.832383Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:19:50.833004Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:19:50.833899Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:19:50.834658Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:19:50.836147Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:19:50.836970Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:19:50.837650Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.837772Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:19:50.837989Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:19:50.838007Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.952951Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.957135Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:24.957725Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:24.958401Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:24.958990Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:24.959592Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:24.960040Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:24.961024Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:24.962145Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:24.963491Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:24.964276Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:24.965438Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.965476Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.965492Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.965504Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:20:24.965740Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:24.965770Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.965786Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.965887Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.966414Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.966450Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.966515Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.966939Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.966962Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.971286Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:24.971891Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:24.972586Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:24.973196Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:24.973901Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:24.975025Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:24.975828Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:24.977035Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:24.977672Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:24.978595Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.978774Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:24.979034Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:24.979051Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.957872Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.962099Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:33.962536Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:33.963083Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:33.963413Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:33.963777Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:33.963967Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:33.964368Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:33.964946Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:33.965683Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:33.966111Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:33.966738Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.966753Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.966765Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.966775Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:20:33.966893Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:33.966921Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.966930Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.966940Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.967199Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.967231Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.967303Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.967573Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.967585Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.970301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:33.970573Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:33.970965Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:33.971292Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:33.971620Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:33.972166Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:33.972581Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:33.973400Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:33.973820Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:33.974428Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.974580Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:33.974924Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:33.974948Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.696317Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.700404Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:37.700878Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:37.701592Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:37.702178Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:37.702765Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:37.703095Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:37.703771Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:37.704593Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:37.705968Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:37.706780Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:37.708029Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.708059Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.708068Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.708075Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:20:37.708249Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:37.708274Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.708284Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.708291Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.708473Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.708502Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.708564Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.708897Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.708916Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.712879Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:37.713169Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:37.713593Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:37.713931Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:37.714287Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:37.714859Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:37.715316Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:37.716058Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:37.716510Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:37.717363Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.717547Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:37.717802Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:37.717828Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.829597Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.834106Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:42.834715Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:42.835440Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:42.836065Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:42.836665Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:42.837077Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:42.837764Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:42.838260Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:42.839053Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:42.839520Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:42.840200Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.840221Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.840230Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.840236Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:20:42.840357Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:42.840379Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.840391Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.840398Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.840594Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.840622Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.840667Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.840934Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.840947Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.843517Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:42.843796Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:42.844193Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:42.844523Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:42.844863Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:42.845690Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:42.846650Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:42.847847Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:42.848366Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:42.849007Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.849127Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:42.849361Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:42.849380Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.486471Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.490586Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:52.491058Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:52.491730Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:52.492375Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:52.493188Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:52.493780Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:52.494451Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:52.495390Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:52.496834Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:52.497777Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:52.498923Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.498950Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.498958Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.498964Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:20:52.499071Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:20:52.499093Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.499104Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.499114Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.499320Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.499347Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.499395Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.499699Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.499711Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.502387Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:20:52.502662Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:20:52.503089Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:20:52.503417Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:20:52.503757Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:20:52.504332Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:20:52.504763Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:20:52.505482Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:20:52.505915Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:20:52.506524Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.506644Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:20:52.506876Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:20:52.506905Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.531844Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.536563Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:02.537355Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:02.538028Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:02.538621Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:02.539233Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:02.539587Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:02.540274Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:02.541078Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:02.542387Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:02.543126Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:02.543995Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.544019Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.544027Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.544034Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:02.544149Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:02.544173Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.544185Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.544196Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.544385Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.544407Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.544454Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.544815Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.544831Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.547588Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:02.547867Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:02.548288Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:02.548754Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:02.549123Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:02.549676Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:02.550107Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:02.550830Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:02.551252Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:02.551863Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.551983Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:02.552208Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:02.552223Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.112238Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.122505Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:15.123478Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:15.124659Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:15.125661Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:15.126941Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:15.127554Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:15.128677Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:15.130046Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:15.132904Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:15.134375Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:15.136067Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.136113Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.136132Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.136152Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:15.136439Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:15.136504Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.136528Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.136564Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.136807Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.136841Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.190113Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.190485Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.190516Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.194900Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:15.195318Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:15.195908Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:15.196382Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:15.196876Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:15.197662Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:15.198413Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:15.200934Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:15.201624Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:15.202592Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.241884Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:15.242177Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:15.242206Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.470709Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.474667Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:17.475107Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:17.475795Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:17.476364Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:17.476954Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:17.477354Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:17.478113Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:17.478884Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:17.480269Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:17.481155Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:17.482363Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.482397Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.482411Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.482421Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:17.482606Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:17.482661Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.482683Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.482695Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.485992Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.486039Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.486380Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.486727Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.486749Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.490760Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:17.491189Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:17.491820Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:17.492360Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:17.492928Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:17.493836Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:17.494534Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:17.495763Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:17.496509Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:17.497541Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.497694Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:17.498022Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:17.498051Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.611745Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.615867Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:23.616317Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:23.616765Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:23.617099Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:23.617436Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:23.617625Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:23.618032Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:23.618461Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:23.619168Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:23.619581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:23.620207Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.620226Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.620234Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.620240Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:23.620356Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:23.620371Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.620380Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.620403Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.620600Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.620627Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.620677Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.620950Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.620962Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.623529Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:23.623802Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:23.624185Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:23.624740Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:23.625426Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:23.626217Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:23.626676Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:23.627401Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:23.627829Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:23.628463Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.628588Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:23.628879Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:23.628895Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.179464Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.183640Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:29.184109Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:29.184763Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:29.185310Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:29.185889Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:29.186252Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:29.186991Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:29.187817Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:29.189191Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:29.190309Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:29.191594Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.191634Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.191648Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.191658Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:29.191839Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:29.191896Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.191914Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.191925Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.192110Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.192137Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.192241Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.192669Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.192693Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.196583Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:29.197079Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:29.197712Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:29.198307Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:29.198834Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:29.199749Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:29.200433Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:29.201579Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:29.202233Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:29.203199Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.203424Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:29.203680Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:29.203698Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.593942Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.597903Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:39.598341Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:39.598991Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:39.599537Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:39.600112Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:39.600434Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:39.601121Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:39.601831Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:39.603070Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:39.603807Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:39.604881Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.604916Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.604928Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.604937Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:39.605103Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:39.605126Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.605137Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.605146Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.606310Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.606360Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.707437Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.707807Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.707832Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.712701Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:39.713165Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:39.713806Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:39.714318Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:39.714875Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:39.715762Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:39.716477Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:39.717863Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:39.718582Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:39.719596Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.744182Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:39.744379Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:39.744435Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.613793Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.618067Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:47.618586Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:47.619102Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:47.619441Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:47.619776Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:47.619963Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:47.620358Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:47.620784Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:47.621480Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:47.621888Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:47.622666Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.622694Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.622707Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.622716Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:21:47.622898Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:21:47.622936Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.622953Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.622968Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.623167Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.623201Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.623262Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.623618Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.623646Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.627037Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:21:47.627355Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:21:47.628013Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:21:47.628543Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:21:47.629044Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:21:47.629867Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:21:47.630638Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:21:47.632480Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:21:47.633643Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:21:47.634878Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.635026Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:21:47.635245Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:21:47.635263Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.714145Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.721519Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:05.722189Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:05.723624Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:05.724591Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:05.725821Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:05.726313Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:05.727247Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:05.728375Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:05.730240Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:05.731320Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:05.732548Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.732588Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.732601Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.732612Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:22:05.732781Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:05.732811Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.732828Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.732839Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.747177Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.747229Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.747332Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.747640Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.747669Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.752240Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:05.752531Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:05.752925Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:05.753281Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:05.753614Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:05.754183Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:05.754599Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:05.755336Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:05.755747Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:05.756594Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.756769Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:05.757137Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:05.757166Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.689736Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.693901Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:30.694365Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:30.695078Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:30.695643Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:30.696217Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:30.696540Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:30.697278Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:30.697967Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:30.698736Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:30.699179Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:30.699952Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.699969Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.699977Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.699983Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:22:30.700094Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:30.700113Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.700121Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.700128Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.700297Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.700356Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.700405Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.700756Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.700770Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.704596Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:30.704870Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:30.705291Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:30.705615Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:30.705983Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:30.706525Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:30.706979Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:30.707678Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:30.708193Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:30.708845Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.709045Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:30.709242Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:30.709258Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.353560Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.357820Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:33.358240Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:33.358662Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:33.359000Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:33.359347Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:33.359542Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:33.359954Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:33.360389Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:33.361321Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:33.361801Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:33.362467Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.362485Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.362493Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.362504Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:22:33.362622Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:22:33.362644Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.362656Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.362666Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.362871Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.362899Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.362956Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.363357Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.363378Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.366215Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:22:33.366503Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:22:33.366900Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:22:33.367232Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:22:33.367573Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:22:33.368135Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:22:33.368572Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:22:33.369369Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:22:33.369866Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:22:33.370768Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.371027Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:22:33.371215Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:22:33.371232Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.228638Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.232853Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:23:10.233323Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:23:10.233958Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:23:10.234457Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:23:10.235013Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:23:10.235311Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:23:10.235944Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:23:10.236701Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:23:10.237512Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:23:10.237985Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:23:10.238874Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.238890Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.238898Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.238905Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:23:10.239011Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:23:10.239054Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.239067Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.239076Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.239285Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.239320Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.239402Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.239755Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.239769Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.242399Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:23:10.242687Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:23:10.243082Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:23:10.243416Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:23:10.243769Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:23:10.244318Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:23:10.244754Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:23:10.245499Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:23:10.245930Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:23:10.246719Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.246857Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:10.247070Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:10.247085Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.989299Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.993454Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:23:15.993770Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:23:15.994229Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:23:15.994570Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:23:15.994932Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:23:15.995153Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:23:15.995581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:23:15.996029Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:23:15.996754Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:23:15.997189Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:23:15.997807Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.997822Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.997830Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.997837Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:23:15.997940Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:23:15.997955Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.997977Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.997984Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.998170Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.998196Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.998249Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:15.998508Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:15.998521Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:16.001019Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:23:16.001294Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:23:16.001683Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:23:16.002019Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:23:16.002367Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:23:16.002913Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:23:16.003461Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:23:16.004770Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:23:16.005307Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:23:16.005996Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:16.006122Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:23:16.006313Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:23:16.006329Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.286011Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.290027Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:19.290393Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:19.291052Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:19.291432Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:19.291786Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:19.292010Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:19.292421Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:19.292849Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:19.293562Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:19.293986Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:19.294593Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.294608Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.294616Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.294622Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:24:19.294743Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:19.294761Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.294773Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.294783Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.294988Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.295015Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.295064Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.295316Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.295329Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.297914Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:19.298188Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:19.298579Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:19.298909Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:19.299248Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:19.299794Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:19.300756Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:19.302197Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:19.303079Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:19.304179Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.304672Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:19.304955Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:19.304985Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.329280Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.333497Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:30.333948Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:30.334684Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:30.335219Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:30.335574Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:30.335769Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:30.336236Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:30.336655Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:30.337394Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:30.337803Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:30.338462Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.338477Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.338484Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.338490Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:24:30.338604Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:30.338620Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.338632Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.338659Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.338880Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.338923Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.338973Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.339255Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.339267Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.341810Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:30.342084Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:30.342469Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:30.342799Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:30.343152Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:30.343689Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:30.344110Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:30.345335Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:30.345811Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:30.346456Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.346587Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:30.346809Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:30.346825Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.070924Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.075191Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:53.075704Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:53.076490Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:53.077059Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:53.077646Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:53.077987Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:53.078719Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:53.079513Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:53.080720Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:53.081448Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:53.082820Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.082859Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.082876Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.082888Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:24:53.083037Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:53.083061Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.083073Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.083083Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.083421Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.083458Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.083520Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.084049Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.084157Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.087116Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:53.087404Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:53.087831Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:53.088168Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:53.088518Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:53.089091Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:53.089530Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:53.090288Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:53.090861Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:53.091518Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.091671Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:53.091898Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:53.091914Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.190334Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.194545Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:57.195017Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:57.195769Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:57.196586Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:57.197343Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:57.197758Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:57.198564Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:57.199497Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:57.201105Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:57.202015Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:57.203287Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.203320Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.203332Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.203341Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:24:57.203511Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:24:57.203535Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.203569Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.203584Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.206010Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.206062Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.206123Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.206427Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.206453Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.209348Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:24:57.209644Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:24:57.210062Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:24:57.210428Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:24:57.210789Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:24:57.211384Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:24:57.211845Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:24:57.212585Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:24:57.213047Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:24:57.213719Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.213880Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:24:57.214077Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:24:57.214099Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.419987Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.424249Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:07.424750Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:07.425405Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:07.425972Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:07.426576Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:07.426898Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:25:07.427383Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:07.427824Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:07.428555Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:07.428985Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:07.429700Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.429719Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.429731Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.429737Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:25:07.429853Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:25:07.429873Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.429885Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.429895Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.430128Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.430154Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.430206Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.430572Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.430586Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.433517Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:07.433805Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:07.434193Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:07.434523Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:07.434866Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:07.435410Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:07.435838Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:07.436550Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:07.436972Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:07.437590Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.437717Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:07.437923Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:07.437938Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.963283Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.968305Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:09.968976Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:09.969677Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:09.970366Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:09.971015Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:09.971353Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:25:09.971983Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:09.972739Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:09.974254Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:09.975244Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:09.976541Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.976577Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.976593Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.976606Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:25:09.976753Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\FormClient.tsx"
+2026-01-02T13:25:09.976779Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.976792Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.976803Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.977210Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.977242Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.977312Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.977641Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.977656Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.981465Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:09.981910Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:09.982472Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:09.982950Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:09.983478Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:09.984665Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:09.985535Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:09.986661Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:09.987350Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:09.988362Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.988515Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:09.988728Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:09.988775Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.305980Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.309356Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:55.309775Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:55.310288Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:55.310676Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:55.311229Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:55.311549Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:25:55.312030Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:55.312867Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:55.314103Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:55.314851Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:55.316006Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.316038Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.316051Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.316060Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:25:55.316203Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:25:55.316230Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.316244Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.316259Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.316370Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.316401Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.316483Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.316805Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.316823Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.321809Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:25:55.322313Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:25:55.323300Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:25:55.323925Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:25:55.324640Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:25:55.325670Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:25:55.326422Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:25:55.327349Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:25:55.327938Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:25:55.328660Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.328771Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:25:55.328985Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:25:55.329023Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.001832Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.006494Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:04.007021Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:04.007753Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:04.008371Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:04.008989Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:04.009481Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:04.010148Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:04.010799Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:04.011661Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:04.012112Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:04.012883Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.012899Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.012907Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.012913Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:26:04.013022Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:04.013042Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.013050Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.013057Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.013179Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.013211Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.013245Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.013501Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.013514Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.016444Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:04.016737Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:04.017162Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:04.017491Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:04.017845Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:04.018394Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:04.018834Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:04.019595Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:04.020013Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:04.020641Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.020798Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:04.020995Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:04.021024Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.921602Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.926028Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:43.926529Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:43.927246Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:43.927807Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:43.928512Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:43.928956Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:43.929678Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:43.930455Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:43.931597Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:43.932260Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:43.933289Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.933328Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.933343Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.933352Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:26:43.933561Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:43.933586Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.933598Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.933609Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.933718Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.933745Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.933784Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.934186Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.934205Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.938459Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:43.938947Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:43.939579Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:43.940128Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:43.940734Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:43.941669Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:43.942406Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:43.943690Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:43.944756Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:43.946006Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.946206Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:43.946435Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:43.946456Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.235537Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.240325Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:52.240801Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:52.241551Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:52.242256Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:52.242927Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:52.243305Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:52.243885Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:52.244558Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:52.245627Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:52.246235Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:52.247096Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.247113Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.247121Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.247127Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:26:52.247253Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:52.247270Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.247280Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.247292Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.247460Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.247490Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.247548Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.247859Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.247872Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.250519Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:52.250793Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:52.251175Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:52.251491Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:52.251831Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:52.252365Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:52.253073Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:52.253986Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:52.254431Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:52.255038Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.255272Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:52.255478Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:52.255493Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.169623Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.173746Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:58.174245Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:58.174836Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:58.175224Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:58.176075Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:58.176540Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:58.177174Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:58.177955Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:58.179246Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:58.179913Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:58.180806Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.180829Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.180841Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.180849Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:26:58.180975Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:26:58.181000Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.181015Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.181025Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.181157Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.181168Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.181213Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.181514Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.181530Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.184997Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:26:58.185396Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:26:58.185940Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:26:58.186414Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:26:58.186890Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:26:58.187743Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:26:58.188255Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:26:58.188998Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:26:58.189465Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:26:58.190094Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.190270Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:26:58.190461Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:26:58.190483Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.405929Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.410380Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:27:04.410968Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:27:04.411527Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:27:04.411931Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:27:04.412295Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:27:04.412539Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:27:04.412928Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:27:04.413387Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:27:04.414587Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:27:04.415614Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:27:04.416641Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.416679Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.416691Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.416700Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-02T13:27:04.416846Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form\\page.tsx"
+2026-01-02T13:27:04.416869Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.416881Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.416891Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.417156Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.417182Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.417230Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.417647Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.417662Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.420499Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app"
+2026-01-02T13:27:04.420817Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\about"
+2026-01-02T13:27:04.421226Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\blog"
+2026-01-02T13:27:04.421571Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\demo"
+2026-01-02T13:27:04.421919Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\app\\form"
+2026-01-02T13:27:04.422483Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\components"
+2026-01-02T13:27:04.422922Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\libs"
+2026-01-02T13:27:04.423695Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\prisma"
+2026-01-02T13:27:04.424143Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Murad\\Desktop\\NEXT-JS\\next-learning\\public"
+2026-01-02T13:27:04.424812Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.425043Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-02T13:27:04.425347Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-02T13:27:04.425374Z  INFO get_globs: tailwindcss_oxide::scanner: exit
