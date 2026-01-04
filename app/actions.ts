@@ -1,5 +1,6 @@
 'use server';
 import { z } from 'zod';
+import { prisma } from '@/libs/prisma';
 
 type FormState = {
   success: boolean;
@@ -16,7 +17,7 @@ const messageSchema = z.object({
     .regex(/^\d+$/, 'Телефон должен содержать только цифры')
     .min(10, 'Телефон должен быть минимум 10 цифр'),
   subscribe: z.coerce.boolean(), // приведение checkbox к булевому
-  gender: z.enum(['male', 'female', 'other'], 'Выберите пол'), // радиокнопки
+  gender: z.enum(['male', 'female'], 'Выберите пол'), // радиокнопки
 });
 
 export async function saveMessage(
@@ -35,6 +36,17 @@ export async function saveMessage(
     };
   }
 
-  console.log('Всё прошло успешно:', parsed.data);
+  const { message, email, phone, subscribe, gender } = parsed.data;
+
+  await prisma.message.create({
+    data: {
+      message,
+      email,
+      phone,
+      subscribe,
+      gender
+    }
+  });
+
   return { success: true };
 }

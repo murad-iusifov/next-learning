@@ -45,9 +45,6 @@ export default function FormClient() {
         <label>
           <input type="radio" name="gender" value="female" disabled={isPending} /> Женский
         </label>
-        <label>
-          <input type="radio" name="gender" value="other" disabled={isPending} /> Другой
-        </label>
         {state?.fieldErrors?.gender && <p style={{ color: 'red' }}>{state.fieldErrors.gender[0]}</p>}
       </div>
 

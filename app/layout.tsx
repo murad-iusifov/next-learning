@@ -17,7 +17,8 @@ export default function RootLayout({
           <nav>
             <Link href="/">Главная</Link> |{' '}
             <Link href="/about">О нас</Link> |{' '}
-            <Link href="/blog">Блог</Link>
+            <Link href="/blog">Блог</Link> |{' '}
+            <Link href="/form">Форма</Link>
           </nav>
         </header>
         <main style={{ padding: '20px' }}>
