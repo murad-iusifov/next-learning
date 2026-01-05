@@ -1,6 +1,6 @@
 'use server';
 import { z } from 'zod';
-import { prisma } from '@/libs/prisma';
+import { prisma } from '@/prisma/prisma';
 
 type FormState = {
   success: boolean;
